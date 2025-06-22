@@ -1,0 +1,160 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #22343d;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #22343d;
+}
+
+.container {
+  max-width: 411px;
+  padding: 0 31px;
+  margin: 0 auto;
+  /* width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto; */
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 0.93;
+  color: #173a56;
+}
+
+/*----------Header------------*/
+
+.header-page {
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+nav {
+  /* display: flex;
+  align-items: center; */
+}
+
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1;
+  color: #173a56;
+  margin-right: auto;
+  /* margin-right: 237px; */
+  padding: 21px 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header-burger {
+  background-color: transparent;
+  border: none;
+}
+
+.menu-burger {
+  stroke-width: 3px;
+  stroke: #173a56;
+}
+
+.header-nav-list {
+  display: none;
+  /* display: flex;
+  gap: 30px; */
+}
+
+.header-nav-link {
+  display: none;
+  /* font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  display: block; */
+}
+
+.header-nav-link .current {
+  font-weight: 600;
+}
+
+.header-btn-list {
+  display: none;
+  /* display: flex;
+  gap: 21px; */
+}
+
+.header-btn {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  padding: 9px 24px;
+}
+
+.first-btn {
+  background-color: white;
+  border: 1px solid #bcd0e5;
+  color: #173a56;
+}
+
+.second-btn {
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  color: white;
+}
+
+/*----------Hero------------*/
+
+.hero-page {
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-title {
+  display: block;
+  padding-top: 112px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  margin-top: 18px;
+}
+
+.hero-list {
+}
+
+.hero-btn {
+  border-radius: 4px;
+  width: 178px;
+  background-color: #02897a;
+  border: 1px solid #02897a;
+  color: white;
+}
+
+.hero-link {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+}

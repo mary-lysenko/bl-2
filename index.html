@@ -4,39 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Product</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">home</a>
-      <a href="./customer.html">customer</a>
-      <a href="/">Product</a>
-      <nav>
-        <ul>
-          <li><a href="/">Product</a></li>
-          <li><a href="/">Pricing</a></li>
-          <li><a href="/">Customers</a></li>
-          <li><a href="/">Resources</a></li>
+    <header class="header-page">
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html">
+          <img src="./images/logo.svg" alt="logo" />Product</a
+        >
+        <nav>
+          <ul class="header-nav-list">
+            <li><a class="header-nav-link current" href="/">Product</a></li>
+            <li><a class="header-nav-link" href="/">Pricing</a></li>
+            <li><a class="header-nav-link" href="/">Customers</a></li>
+            <li><a class="header-nav-link" href="/">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="header-btn-list">
+          <li>
+            <button class="header-btn first-btn" type="button">Sign In</button>
+          </li>
+          <li>
+            <button class="header-btn second-btn" type="button">Sign Up</button>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <button type="button">Sign In</button>
-        </li>
-
-        <li><button type="button">Sign Up</button></li>
-      </ul>
+        <button type="button" class="header-burger">
+          <svg class="menu-burger" width="28" height="31">
+            <use href="./images/menu-btn.svg"></use>
+          </svg>
+        </button>
+      </div>
     </header>
-    <main>
-      <section>
-        <h1>Work at the speed of thought</h1>
-        <p>
-          Tools, tutorials, design and innovation experts, all in one place! The
-          most intuitive way to imagine your next user experience.
-        </p>
-        <ul>
-          <li><a href="/">Get started</a></li>
-          <li><a href="/">Watch the Video</a></li>
-        </ul>
+    <!-- <main>
+      <section class="hero-page">
+        <div class="hero-container container">
+          <h1 class="hero-title">Work at the speed of thought</h1>
+          <p class="hero-text">
+            Tools, tutorials, design and innovation experts, all in one place!
+            The most intuitive way to imagine your next user experience.
+          </p>
+          <ul class="hero-list">
+            <li><button class="hero-btn" type="button">Get started</button></li>
+            <li><a class="hero-link" href="/">Watch the Video</a></li>
+          </ul>
+        </div>
       </section>
       <section>
         <h2>Product was Built Specifically for You</h2>
@@ -297,6 +319,6 @@
       <p>Enter your phone number</p>
       <button type="button">Sign up Now</button>
       <p>Made With Love By Figmaland All Right Reserved</p>
-    </footer>
+    </footer> -->
   </body>
 </html>
